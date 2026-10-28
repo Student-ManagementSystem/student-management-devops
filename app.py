@@ -60,7 +60,7 @@ def find_student(student_id: int) -> dict[str, Any] | None:
 
 if __name__ == "__main__":
     students.clear()
-    add_student(1, "Rahul", "AI & DS", "rahul@example.com")
+    add_student(1, "swayam", "AI & DS", "swayam@example.com")
     add_student(2, "Priya", "Computer Engineering", "priya@example.com")
     print("Student Management System")
     for item in get_students():

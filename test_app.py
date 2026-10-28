@@ -51,7 +51,7 @@ class TestStudentManagement(unittest.TestCase):
             validate_email("not-an-email")
 
     def test_add_student_with_email(self):
-        student = add_student(3, "Asha", "AI & DS", "asha@example.com")
+        student = add_student(3, "swayam", "AI & DS", "asha@example.com")
         self.assertEqual(student["email"], "asha@example.com")
 
 
